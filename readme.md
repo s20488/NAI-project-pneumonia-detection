@@ -23,3 +23,10 @@ Sklonuj to repozytorium na swój lokalny komputer za pomocą następującej kome
 
 ```bash
 git clone https://github.com/twoja-nazwa-uzytkownika/detekcja-zapalenia-pluc.git
+
+### 2. Zainstaluj Zależności
+Przejdź do katalogu projektu i zainstaluj wymagane biblioteki Pythona:
+
+```bash
+pip install -r requirements.txt
+

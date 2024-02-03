@@ -1,8 +1,8 @@
-# Detekcja Zapalenia Płuc na Zdjęciach Rentgenowskich
+# Detekcja zapalenia płuc na zdjęciach X-ray
 
 Projekt ten został stworzony w celu wykrywania zapalenia płuc na zdjęciach rentgenowskich przy użyciu trzech różnych modeli wstępnie nauczonych: VGG19, ResNet50 i MobileNet. Modele te zostały trenowane na zestawie danych zawierającym oznaczone obrazy dla przypadków normalnych oraz zapalenia płuc.
 
-## Struktura Projektu
+## Struktura projektu
 
 1. **main.py**: Główny skrypt inicjujący aplikację internetową Flask do przesyłania i przewidywania obrazów rentgenowskich. Zawiera również funkcje do tworzenia diagramów, generowania generatorów danych obrazowych i trenowania modeli.
 
@@ -14,24 +14,24 @@ Projekt ten został stworzony w celu wykrywania zapalenia płuc na zdjęciach re
 
 5. **metrics.py**: Zawiera niestandardowe metryki (F1 Score) i funkcje do generowania wykresów metryk ewaluacyjnych.
 
-## Rozpoczęcie Pracy
+## Rozpoczęcie pracy
 Aby uruchomić projekt, wykonaj następujące kroki:
 
-### 1. Sklonuj Repozytorium
+### 1. Sklonuj repozytorium
 Sklonuj to repozytorium na swój lokalny komputer za pomocą następującej komendy:
 
 ```bash
 git clone https://github.com/twoja-nazwa-uzytkownika/detekcja-zapalenia-pluc.git
 ```
 
-### 2. Zainstaluj Zależności
+### 2. Zainstaluj zależności
 Przejdź do katalogu projektu i zainstaluj wymagane biblioteki Pythona:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Zbiór Danych
+### 3. Pobierz zbiór danych
 Dane zostały pobrane ze strony Kaggle za pomocą poniższego linku: 
 https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data
 
@@ -50,3 +50,13 @@ data/
 |       |-- NORMAL/
 |       |-- PNEUMONIA/
 ```
+
+### 4. Uruchom aplikację internetową Flask
+Odwiedź http://localhost:5000/ w przeglądarce internetowej, aby przesyłać i przewidywać obrazy rentgenowskie.
+
+```bash
+python main.py
+```
+## Dodatkowe Informacje
+Niektóre fragmenty kodu zostały wykorzystane z poniższego linku: 
+https://www.kaggle.com/code/karan842/pneumonia-detection-transfer-learning-94-acc/notebook#Importing-necessary-libraries.

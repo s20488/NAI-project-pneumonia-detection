@@ -57,6 +57,6 @@ Odwiedź http://localhost:5000/ w przeglądarce internetowej, aby przesyłać i 
 ```bash
 python main.py
 ```
-## Dodatkowe Informacje
+## Dodatkowa informacja
 Niektóre fragmenty kodu zostały wykorzystane z poniższego linku: 
 https://www.kaggle.com/code/karan842/pneumonia-detection-transfer-learning-94-acc/notebook#Importing-necessary-libraries.

@@ -22,7 +22,7 @@ PATH_TEST = Path('data/chest_xray/test')
 
 app = Flask(__name__)
 
-model = tf.keras.models.load_model('save_models/model_mobilenet.h5',
+model = tf.keras.models.load_model('save_models/model_resnet50.h5',
                                    custom_objects={'MyF1Score': MyF1Score,
                                                    'Precision': Precision,
                                                    'Recall': Recall})
@@ -100,8 +100,8 @@ def main():
     # create_diagram(PATH_TEST, 'test')
 
     # Tworzenie i konfiguracja generatorów danych dla każdego zestawu danych (train, validation, test)
-    # train_generator = create_generator(PATH_TRAIN)
-    # val_generator = create_generator(PATH_VAL)
+    train_generator = create_generator(PATH_TRAIN)
+    val_generator = create_generator(PATH_VAL)
     test_generator = create_generator(PATH_TEST)
 
     # Szkolenie modeli na danych treningowych z użyciem danych walidacyjnych

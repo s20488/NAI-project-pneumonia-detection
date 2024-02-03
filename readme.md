@@ -46,3 +46,22 @@ Przejdź do katalogu projektu i zainstaluj wymagane biblioteki Pythona:
 pip install -r requirements.txt
 ```
 
+### 3. Zbiór Danych
+Dane zostały pobrane ze strony Kaggle za pomocą poniższego linku: 
+https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data
+
+Upewnij się, że zbiór danych jest zorganizowany w następujący sposób:
+
+```bash
+data/
+|-- chest_xray/
+|   |-- train/
+|       |-- NORMAL/
+|       |-- PNEUMONIA/
+|   |-- val/
+|       |-- NORMAL/
+|       |-- PNEUMONIA/
+|   |-- test/
+|       |-- NORMAL/
+|       |-- PNEUMONIA/
+```

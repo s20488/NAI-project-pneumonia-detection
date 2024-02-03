@@ -1,6 +1,5 @@
 # Detekcja Zapalenia Płuc na Zdjęciach Rentgenowskich
 
-## Przegląd
 Projekt ten został stworzony w celu wykrywania zapalenia płuc na zdjęciach rentgenowskich przy użyciu trzech różnych modeli wstępnie nauczonych: VGG19, ResNet50 i MobileNet. Modele te zostały trenowane na zestawie danych zawierającym oznaczone obrazy dla przypadków normalnych oraz zapalenia płuc.
 
 ## Struktura Projektu

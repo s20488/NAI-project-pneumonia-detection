@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Pobierz zbiór danych
-Dane zostały pobrane ze strony Kaggle za pomocą poniższego linku: 
+Dane zostały pobrane ze strony Kaggle: 
 https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data
 
 Upewnij się, że zbiór danych jest zorganizowany w następujący sposób:

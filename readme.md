@@ -11,10 +11,8 @@ Projekt ten został stworzony w celu wykrywania zapalenia płuc na zdjęciach re
 3. **model_resnet50.py**: Skrypt zawierający funkcję do trenowania modelu ResNet50 do detekcji zapalenia płuc.
 
 4. **model_mobilenet.py**: Skrypt zawierający funkcję do trenowania modelu MobileNet do detekcji zapalenia płuc.
-   
-5. **test_callback.py**: Zawiera klasę do oceny metryk testowych na końcu każdej epoki treningowej.
 
-6. **metrics.py**: Skrypt zawierający funkcje do generowania wykresów metryk precision, recall i F1 modeli na zbiorze testowym.
+5. **metrics.py**: Skrypt zawierający funkcje do generowania wykresów metryk precision, recall i F1 modeli na zbiorze testowym.
 
 ## Rozpoczęcie pracy
 Aby uruchomić projekt, wykonaj następujące kroki:

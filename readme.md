@@ -12,7 +12,7 @@ Projekt ten został stworzony w celu wykrywania zapalenia płuc na zdjęciach re
 
 4. **model_mobilenet.py**: Skrypt zawierający funkcję do trenowania modelu MobileNet do detekcji zapalenia płuc.
 
-5. **metrics.py**: Zawiera niestandardowe metryki (F1 Score) i funkcje do generowania wykresów metryk ewaluacyjnych.
+5. **metrics.py**: Zawiera niestandardowe metryki (F1 Score) i funkcje do generowania wykresów metryk precision, recall i F1 modeli na zbiorze testowym.
 
 ## Rozpoczęcie pracy
 Aby uruchomić projekt, wykonaj następujące kroki:

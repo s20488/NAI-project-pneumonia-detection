@@ -3,21 +3,6 @@
 Projekt ten został stworzony w celu wykrywania zapalenia płuc na zdjęciach rentgenowskich przy użyciu trzech różnych modeli wstępnie nauczonych: VGG19, ResNet50 i MobileNet. Modele te zostały trenowane na zestawie danych zawierającym oznaczone obrazy dla przypadków normalnych oraz zapalenia płuc.
 
 ## Struktura Projektu
-Projekt jest zorganizowany w następujący sposób:
-
-```bash
-data/
-|-- chest_xray/
-|   |-- train/
-|       |-- NORMAL/
-|       |-- PNEUMONIA/
-|   |-- val/
-|       |-- NORMAL/
-|       |-- PNEUMONIA/
-|   |-- test/
-|       |-- NORMAL/
-|       |-- PNEUMONIA/
-```
 
 1. **main.py**: Główny skrypt inicjujący aplikację internetową Flask do przesyłania i przewidywania obrazów rentgenowskich. Zawiera również funkcje do tworzenia diagramów, generowania generatorów danych obrazowych i trenowania modeli.
 

@@ -4,7 +4,7 @@ Projekt ten został stworzony w celu wykrywania zapalenia płuc na zdjęciach re
 
 ## Struktura projektu
 
-1. **main.py**: Główny skrypt inicjujący aplikację internetową Flask do przesyłania i przewidywania obrazów rentgenowskich. Zawiera również funkcje do tworzenia diagramów, generowania generatorów danych obrazowych i trenowania modeli.
+1. **main.py**: Główny skrypt inicjujący aplikację internetową Flask do przesyłania i przewidywania obrazów rentgenowskich. Zawiera również funkcje do tworzenia diagramów i generowania generatorów danych obrazowych.
 
 2. **model_vgg19.py**: Skrypt zawierający funkcję do trenowania modelu VGG19 do detekcji zapalenia płuc.
 

@@ -29,7 +29,7 @@ class MyF1Score(tf.keras.metrics.Metric):
 
 def plot_metrics(test, model, loaded_history, model_name):
     """
-    Ocenia dany i rysuje metryki precyzji, czułości i F1 modeli na zbiorze testowym.
+    Ocenia dany i rysuje metryki precision, recall i F1 modeli na zbiorze testowym.
 
     Parametry:
     - test: Zbiór danych testowych.

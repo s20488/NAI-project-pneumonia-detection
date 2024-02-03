@@ -9,7 +9,7 @@ Aby uruchomić projekt, wykonaj następujące kroki:
 Sklonuj to repozytorium na swój lokalny komputer za pomocą następującej komendy:
 
 ```bash
-git clone https://github.com/twoja-nazwa-uzytkownika/detekcja-zapalenia-pluc.git
+git clone https://github.com/s20488/NAI_project_pneumonia_detection.git
 ```
 
 ### 2. Zainstaluj zależności

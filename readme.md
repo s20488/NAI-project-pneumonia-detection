@@ -1,29 +1,29 @@
-# Detekcja zapalenia płuc na zdjęciach X-ray
+# Pneumonia Detection in X-ray Images
 
-Projekt ten został stworzony w celu wykrywania zapalenia płuc na zdjęciach rentgenowskich przy użyciu trzech różnych modeli wstępnie nauczonych: VGG19, ResNet50 i MobileNet. Modele te zostały trenowane na zestawie danych zawierającym oznaczone obrazy dla przypadków normalnych oraz zapalenia płuc.
+This project is designed to detect pneumonia in chest X-ray images using three pre-trained deep learning models: VGG19, ResNet50, and MobileNet. The models were trained on a labeled dataset containing both normal and pneumonia cases.
 
-## Rozpoczęcie pracy
-Aby uruchomić projekt, wykonaj następujące kroki:
+## Getting Started
+To set up the project, follow these steps:
 
-### 1. Sklonuj repozytorium
-Sklonuj to repozytorium na swój lokalny komputer za pomocą następującej komendy:
+### 1. Clone the Repository
+Clone this repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/s20488/NAI_project_pneumonia_detection.git
 ```
 
-### 2. Zainstaluj zależności
-Przejdź do katalogu projektu i zainstaluj wymagane biblioteki Pythona:
+### 2. Install Dependencies
+Navigate to the project directory and install the required Python libraries:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Pobierz zbiór danych
-Dane zostały pobrane ze strony Kaggle: 
+### 3. Download the Dataset
+The dataset was sourced from Kaggle:
 https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data
 
-Upewnij się, że zbiór danych jest zorganizowany w następujący sposób:
+Ensure the dataset is organized in the following structure:
 
 ```bash
 data/
@@ -39,12 +39,12 @@ data/
 |       |-- PNEUMONIA/
 ```
 
-### 4. Uruchom aplikację internetową Flask
-Odwiedź http://localhost:5000/ w przeglądarce internetowej, aby przesyłać i przewidywać obrazy rentgenowskie.
+### 4. Run the Flask Web Application
+Launch the app and visit http://localhost:5000/ in your browser to upload and predict X-ray images.
 
 ```bash
 python main.py
 ```
-## Dodatkowa informacja
-Niektóre fragmenty kodu zostały wykorzystane z poniższego linku: 
+## Additional Notes
+Portions of the code were adapted from this Kaggle notebook:
 https://www.kaggle.com/code/karan842/pneumonia-detection-transfer-learning-94-acc/notebook#Importing-necessary-libraries.
